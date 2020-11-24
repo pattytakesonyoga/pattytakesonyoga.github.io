@@ -1411,7 +1411,7 @@
 	.box {
 		margin-bottom: 2rem;
 		background: #FFF;
-        width: 20%;
+        width: 100%;
 	}
 		.box .image.fit {
 			margin: 0;
@@ -3464,7 +3464,7 @@
 .column {
   float: left;
   width: 20%;
-  padding: 5px;
+  padding: 5px;git pu
 }
 
 /* Clearfix (clear floats) */
