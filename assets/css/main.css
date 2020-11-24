@@ -3473,3 +3473,12 @@
   clear: both;
   display: table;
 }
+
+@media only screen and (max-width: 629px) {
+  /* for widths less than or equal to 629 pixels */
+.column {
+  float: left;
+  width: 200%;
+  padding: 5px;g
+}
+}
