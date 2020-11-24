@@ -2127,7 +2127,14 @@
 		.wrapper > .inner {
 			margin: 0 auto;
 			width: 80rem;
+
+            p{
+                  word-wrap: break-word;
+
+            }
 		}
+
+        
 		.wrapper.style1 {
 			background-color: #8a4680;
 			color: #e2d1df;
