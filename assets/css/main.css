@@ -3478,7 +3478,7 @@
   /* for widths less than or equal to 629 pixels */
 .column {
   float: left;
-  width: 200%;
+  width: 100%;
   padding: 5px;g
 }
 
@@ -3487,16 +3487,21 @@
 		background: #FFF;
         width: 75%;
 	}
-
+#header {
+    position:relative;
+}
 #header > .button {
     float: none;
     display: block;
     text-align: left;
     width:100%;
-
+    position:absolute;
   }
+
   #header > .logo {
     float: none;
     width:100%;
+        position:absolute
+
   }
 }
